@@ -55,10 +55,10 @@ class War {
     vikingArmy = []
 
     addViking (vikingArmy) {
-        vikingArmy = this.vikingArmy.push()
+        vikingArmy = vikingArmy + this.vikingArmy.push()
     }
     addSaxon (saxonArmy) {
-        saxonArmy = this.saxonArmy.push()
+        saxonArmy = saxonArmy + this.saxonArmy.push()
     }
     vikingAttack () {
 
@@ -67,8 +67,6 @@ class War {
 
     }
     showStatus () {
-        if (this.saxonArmy.length = 0) {
-            return `Vikings have won the war of the century!`
-        }
+    
     }
 }
